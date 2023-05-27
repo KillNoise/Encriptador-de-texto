@@ -1,0 +1,144 @@
+*{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 30%;
+}
+
+header{
+    width: 1000px;
+    height: auto;
+    position: absolute;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.entrada{
+    padding-top: 15%;
+    padding-left: 5%;
+    display: absolute;
+    width: 50%;
+}
+
+.textarea_entrada{
+    border: none;
+    margin-top: 50px;
+    width: 100%;
+    resize: none; 
+}
+
+.textarea_entrada:focus{
+    outline: none;
+}
+
+.informacion_logo{
+    padding-top: 3vh;
+    display:inline-block;
+}
+
+.informacion{
+    font-size: 18px; 
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.botones{
+    display: flex;
+    width: 100%; 
+}
+
+.encriptar{
+    background-color: crimson;
+    border-width: 2px;
+    border-color: crimson;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.encriptar:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.desencriptar{
+    border-width: 2px;
+    background-color: white;
+    border-color: crimson;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 24px;
+}
+
+.desencriptar:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.salida{
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 35%;
+    height: 90%;
+    background-color:rgb(245, 227, 230);
+    border-radius: 20px;
+    display: grid;
+}
+
+.aqui_se_muestra{
+    text-align: center;
+    margin: auto 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-size: 32px;
+}
+
+.textarea_salida{
+    width: 90%;
+    height: 90%;
+    margin: 5% 5% 2% 5%;
+    border:none;
+    background-color: rgb(245, 227, 230) ;
+    text-align: center;
+    resize: none;
+}
+
+.textarea_salida:focus{
+    outline: none;
+}
+
+.copiar{
+    border-width: 2px;
+    background-color: white;
+    border-color: crimson;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 90%;
+    margin: 2% 5%;
+}
+
+.copiar:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
